@@ -1,6 +1,29 @@
+body {
+  font-family: sans-serif;
+  background-color: #ddd;
+  color: #333;
+}
+.Pagination__holder {
+  margin: 0 auto;
+  text-align: center;
+}
 #pagination {
   margin-top: 20px;
 }
 button {
   margin: 0 5px;
+  cursor: pointer;
+}
+ul {
+  margin: 40px auto;
+  & li {
+    width: 24px;
+    aspect-ratio: 1/1;
+    background-color: #333;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
